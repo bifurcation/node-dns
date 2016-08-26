@@ -1,5 +1,5 @@
 {
-  "name": "native-dns",
+  "name": "native-dns-multisocket",
   "version": "0.7.0",
   "authors": [
     "Timothy J Fontaine <tjfontaine@gmail.com> (http://atxconsulting.com)",
@@ -12,13 +12,13 @@
     "bind",
     "native"
   ],
-  "homepage": "http://github.com/tjfontaine/node-dns",
+  "homepage": "http://github.com/bifurcation/node-dns",
   "bugs": {
-    "url": "http://github.com/tjfontaine/node-dns/issues"
+    "url": "http://github.com/bifurcation/node-dns/issues"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/tjfontaine/node-dns.git"
+    "url": "http://github.com/bifurcation/node-dns.git"
   },
   "main": "dns.js",
   "engines": {

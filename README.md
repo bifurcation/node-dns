@@ -1,13 +1,12 @@
-[![Build Status](https://secure.travis-ci.org/tjfontaine/node-dns.png)](http://travis-ci.org/tjfontaine/node-dns)
 
 native-dns -- A replacement DNS stack for node.js
 =================================================
 
-# PROJECT NO LONGER MAINTAINED. [MAY THE BEST FORK WIN!](https://github.com/tjfontaine/node-dns/issues/111)
+# FORK OF [THE ORIGINAL](https://github.com/tjfontaine/node-dns/)
 
-Visit [this issue](https://github.com/tjfontaine/node-dns/issues/111) to suggest or vote on a fork!
-
-Link to winning fork will be placed here.
+The original `native-dns` package has a bug such that its client code will never
+close sockets under some circumstances.  Since the original is no longer
+maintained, this is a fork to fix that bug.
 
 # (Below follows original README)
 
